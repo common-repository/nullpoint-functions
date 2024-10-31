@@ -1,0 +1,40 @@
+.npt-imagebox {
+    position: relative;
+}
+
+.npt-imagebox .image {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid;
+}
+
+.npt-imagebox .image img {
+    width: 100%;
+    display: block;
+}
+
+.npt-imagebox .image img:hover {
+    transform: scale(1.2);
+}
+
+.npt-imagebox .name {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.npt-imagebox .desc {
+    margin-bottom: 30px;
+}
+
+.sidebar-left .npt-imagebox {
+	padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.sidebar-left .npt-imagebox {
+		padding-right: 0;
+	}	
+}
